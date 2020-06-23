@@ -1,22 +1,18 @@
 <template>
   <div id="app" class="container p-3">
-    <FormComment />
-    <div class="dropdown-divider"></div>
-    <Comments msg="Welcome to Your Vue.js App"/>
+    <Comments />
   </div>
 </template>
 
 <script>
-import Comments from './components/Comments.vue'
-import FormComment from './components/FormComment.vue'
+  import Comments from './components/Comments.vue'
 
-export default {
-  name: 'App',
-  components: {
-    Comments,
-    FormComment
+  export default {
+    name: 'App',
+    components: {
+      Comments
+    }
   }
-}
 </script>
 
 <style>
