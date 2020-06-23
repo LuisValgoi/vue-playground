@@ -19,7 +19,7 @@
           <div class="card-body">
             <a href="#" class="btn btn-link ml-0 float-right" v-on:click.prevent="deleteComment(index)">Excluir</a>
             <h5 class="card-title">Author: {{comment.name}}</h5>
-            <p class="card-text">Comment: {{comment.comment}}</p>
+            <p class="card-text">Comment: {{formatComment(comment.comment)}}</p>
           </div>
         </div>
       </div>
@@ -41,6 +41,11 @@
       }
     },
     methods: {
+      formatComment(value) {
+        if (value.trim() === '') {
+          return 'N/A'
+        }
+      },
       deleteComment(index) {
         this.comments.splice(index, 1)
       },
