@@ -2,7 +2,6 @@
   <div class="container">
     <h1>Form</h1>
 
-    <!-- Author -->
     <div class="input-group mb-3">
       <div class="input-group-prepend">
         <span class="input-group-text" id="basic-addon1">@</span>
@@ -10,7 +9,6 @@
       <input type="text" class="form-control" placeholder="Type your name here" v-model="name">
     </div>
 
-    <!-- Comment & Add -->
     <div class="row mb-3">
       <div class="col col-11">
         <div class="input-group">
@@ -25,7 +23,6 @@
         <button v-on:click="addComment" type="submit" class="btn btn-primary float-right">Add</button>
       </div>
     </div>
-
   </div>
 </template>
 

@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import Comments from './components/Comments.vue'
+  import Comments from './pages/Comments.vue'
 
   export default {
     name: 'App',
