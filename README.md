@@ -2,7 +2,7 @@
 Project just for playing w/ vue syntax
 
 # Content
-![image](https://im4.ezgif.com/tmp/ezgif-4-7d65ea98b990.gif)
+![image](https://media2.giphy.com/media/cjKcdeBOnBKrKVlXhy/giphy.gif)
 
 ## Project setup
 ```
